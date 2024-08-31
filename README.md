@@ -9,6 +9,11 @@ en la subclase `Motocicleta`, agrega un método llamado `hacer_caballito()` que 
 motocicleta está haciendo un caballito". Escribe un programa que cree instancias de 
 `Coche` y `Motocicleta` y llame a todos sus métodos.
 
+<details>
+  <summary><b>Actividad 1</b></summary>
+  <img src="./assets/act1.png" alt="Actividad 1">
+</details>
+
 ## Ejercicio 2
 ### Polimorfismo con Animales
 Crea una clase base llamada `Animal` que tenga un método `hacer_sonido()` que no esté 
@@ -19,15 +24,30 @@ Crea una función llamada `hacer_ruido(animal)` que reciba un objeto de tipo `An
 llame al método `hacer_sonido()`. Escribe un programa que demuestre el uso de 
 polimorfismo llamando a `hacer_ruido()` con diferentes tipos de animales.
 
+<details>
+  <summary><b>Actividad 2</b></summary>
+  <img src="./assets/act2.png" alt="Actividad 2">
+</details>
+
 ## Ejercicio 3
 
 ### Subclase y Herencia:
 Crea una subclase llamada `UsuarioPremium` que herede de la clase `Usuario`. Añade un atributo `adicional nivel_premium` (que puede ser "Oro", "Plata" o "Bronce") y un método `obtener_descuento()` que retorne un porcentaje de descuento basado en el nivel premium (Oro: 20%, Plata: 15%, Bronce: 10%). ¿Cómo implementarías esta subclase y cómo podrías crear un objeto de esta nueva clase?
 
+<details>
+  <summary><b>Actividad 3</b></summary>
+  <img src="./assets/act3.png" alt="Actividad 3">
+</details>
+
 ## Ejercicio 4
 
 ### Polimorfismo:
 Modifica la clase Usuario para incluir un método `mostrar_info()` que muestre el username y el email. Luego, en la subclase `UsuarioPremium`, sobrescribe este método para que también muestre el nivel premium. Crea una función `imprimir_informacion_usuario` (usuario) que acepte tanto objetos Usuario como `UsuarioPremium` y llame a su método `mostrar_info()`. ¿Cómo demostrarías el polimorfismo con esta implementación?
+
+<details>
+  <summary><b>Actividad 4</b></summary>
+  <img src="./assets/act4.png" alt="Actividad 4">
+</details>
 
 ## Ejercicio 5
 
@@ -41,3 +61,8 @@ verifique que el correo electrónico tenga un formato válido, y que `PagoCripto
 capture cualquier excepción genérica relacionada con la transacción. Escribe un 
 programa que simule pagos utilizando cada uno de estos métodos y maneje cualquier 
 excepción que pueda ocurrir
+
+<details>
+  <summary><b>Actividad 5</b></summary>
+  <img src="./assets/act5.png" alt="Actividad 5">
+</details>
